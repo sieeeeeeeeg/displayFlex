@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./hgactivity.css">
+</head>
+<body>
+    <header>Header</header>
+    <main>
+        <nav>Nav</nav>
+
+        <article>
+
+            <form>
+                <div class="container">
+                    <div class="flex-item left">
+                        <div class="field">
+                            <label for="firstName">First Name</label>
+                            <input type="text" id="firstName">
+                        </div>
+                        <div class="field">
+                            <label for="LastName">Last Name</label>
+                            <input type="text" id="lastname">
+                        </div>
+                        <div class="field">
+                            <label for="email">Email</label>
+                            <input type="text" id="email">
+                        </div>
+                        <div class="field">
+                            <label for="pickupDate/Time">Pickup Date/Time</label>
+                            <input type="datetime-local" id="datetime">
+                        </div>
+                        <div class="field">
+                            <label for="pickupPlace">Pickup Place</label>
+                            <select name="place" id="dropoff">
+                                <option value="text">Select One</option>
+                                <option value="Manila">Manila</option>
+                                <option value="Clark City">Clark City</option>
+                                <option value="Baguio City">Baguio City</option>
+                                <option value="San Fernando City">San Fernando City</option>
+                                <option value="Subic Bay">Subic bay</option>
+                                <option value="Vigan City">Vigan City</option>
+                            </select> 
+                        </div>
+                        <div class="field">
+                            <label for="dropoffPlace">Dropoff Place</label>
+                            <input type="text" id="dropoff Place">
+                        </div>
+                    </div>
+
+                    <div class="flex-item right">
+                        Which vehicle do you require? <br />
+                        <input type="radio" name="vehicle" id="van">
+                        <label for="Van">Van</label>
+                        <br />
+                        <input type="radio" name="vehicle" id="Jeepney">
+                        <label for="Jeepney">Jeepney</label>
+                        <br />
+                        <input type="radio" name="vehicle" id="Tricycle">
+                        <label for="Tricycle">Tricycle</label>
+                        <br /><br />
+                       
+                        Extras<br />
+                        <input type="checkbox" name="vehicle" id="van">
+                        <label for="babyseat">Baby Seat</label>
+                        <br />
+                        <input type="checkbox" name="vehicle" id="Jeepney">
+                        <label for="wheelchairAccess">Wheelchair Access</label>
+                        <br />
+                        <input type="checkbox" name="vehicle" id="Tricycle">
+                        <label for="stockTip">Stock Tip</label>
+                    </div>
+                </div>
+
+                <div class="btn-container">
+                    <input type="submit" value="Submit Booking">
+                </div>
+            </form>
+
+        </article>
+
+        <aside>Aside</aside>
+    </main>
+
+    <footer>Footer</footer>
+</body>
+</html>

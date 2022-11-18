@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+}
+
+header,
+footer{
+    height: 10vh;
+    background-color: yellowgreen;
+    padding: 15px;
+}
+
+main{
+    height: 50vh;
+    display: flex;
+}
+aside{
+    width: 20%;
+    padding: 15px;
+    background-color: rgb(233, 225, 199);
+}
+nav{
+    width: 20%;
+    padding: 15px;
+    background-color: rgb(176, 238, 176);
+    order: 1;
+}
+
+article{
+    width: 60%;
+    padding: 30px;
+    background-color: white;
+    order: -1;
+}
+
+body{
+    margin: 0;
+}
+.font{
+    font-family: 'Merriweather', serif;
+}
+.container{
+    display: flex;
+    column-gap: 50px;
+}
+
+.flex-item.left{
+    width: 70%;
+}
+.field{
+    display: flex;
+    margin-bottom: 5px;
+    padding-left: 150px;
+}
+.field label{
+    flex: 1;
+    /*flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0;*/
+}
+.field input,select{
+    flex: 1;
+    padding: 5px;
+}
+.flext-item.right{
+    width: 30%;
+}
+.btn-container{
+    text-align: center;
+    margin-top: 20px;
+}
+input[type="submit"]{
+    border: 0;
+    padding: 10px;
+    background-color: gray;
+    border: 20px;
+    color: antiquewhite;
+}
+input[type="submit"]:hover{
+    cursor: pointer;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    height: 100%;
+    padding: 20px;
+
+}
